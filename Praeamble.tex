@@ -1,0 +1,34 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+
+% \renewcommand{\maketitle}{
+%     \begin{center}
+%         {\huge\bfseries\theauthor}
+%         \vspace{.25em}
+%         niklas@gt-trenz.de --- https://niklastrenz.de
+%     \end{center}
+% }
+
+\titleformat{\section}
+{\huge\bfseries\lowercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries}
+{\(\bullet \)}
+{1em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}[---]
