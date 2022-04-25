@@ -277,3 +277,4 @@ TSWLatexianTemp*
 
 # exclude main.pdf
 main.pdf
+*.docx
